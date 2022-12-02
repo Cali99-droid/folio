@@ -3,6 +3,7 @@
 
 html{
     font-family: 'Bebas Neue', cursive;
+    scroll-behavior: smooth;
 }
 
 h2{
