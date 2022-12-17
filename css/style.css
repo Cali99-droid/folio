@@ -9,7 +9,20 @@ html{
 h2{
     margin: 0;
 }
+/** scroll */
+body::-webkit-scrollbar {
+  width: 9px;               /* width of the entire scrollbar */
+}
 
+body::-webkit-scrollbar-track {
+  background: #F1F1E6;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #358396;    /* color of the scroll thumb */
+ /* border-radius: 20px;       /* roundness of the scroll thumb */
+  /* creates padding around scroll thumb */
+}
 /**NAVEGACION*/
 
 .logo a{
