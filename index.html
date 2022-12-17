@@ -8,33 +8,56 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
-
-
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/1b230357bb.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav>
-       <div class="nav">
-        <a href="#sobre">Sobre mi</a>
-        <a href="#portafolio">Portafolio</a>
-        <a href="#contacto">Contacto</a>
+        
+       <div class="nav nave">
+            <div class="logo">
+                <a href="" class=""><i class="fa-brands fa-connectdevelop"></i></a>
+            </div>
+        <div class="anclas">
+           
+            <a href="#sobre">Sobre mi</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#contacto">Contacto</a>
+            <a href="#contacto" class="btn"> <i class="fa-solid fa-file-arrow-down"></i> Descargar CV</a>
+        </div>
+        <div class="anclas nave">
+            <a href="sobre"><i class="fa-brands fa-github"></i></a>
+            <a href="#portafolio"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#contacto"><i class="fa-brands fa-facebook"></i></a>
+        </div>
        </div>
 
-  
     </nav>
     <header>
         <div class="hero">
             <div class="text_hero">
                 <h1>Carlos Orellano</h1>
-            <h3>Ingeniero Informático </h3>
-            <h4> </h4>
+                <div id="typed-strings">
+                    <p>Ingeniero de Sistemas e Informática. </p>
+                    <p>Desarrollador Web <strong>FullStack</strong>.</p>
+                    <p>Gestión de Bases de Datos. </p>
+                </div>
+                <span id="typed"></span>
             </div>
             <div class="imag">
-                <img src="assets/dev.svg" alt="">
+              
+               
             </div>
+          
         </div>
     </header>
-
+    <a class="ir-arriba"  javascript:void(0) title="Volver arriba">
+        <span class="fa-stack">
+          <i class="fa fa-circle fa-stack-2x"></i>
+          <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
+        </span>
+      </a>
     <section>
         <div class="sobre" id="sobre">
                 <div class="sobre_titulo">
@@ -151,28 +174,49 @@
         <div class="portafolio" id="portafolio">
             <h2>TRABAJOS</h2>
             <div class="trabajos_grid">
-                <div class="item">
-                 trabajo
+                <div class="item card">                
+                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <h4><b>USTEC</b></h4>
+                        <p>Sistema de gestion de incidentes</p>
+                    </div>   
                 </div>
 
-                <div class="item">
-                    trabajo
+                <div class="item card">        
+                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                      <h4><b>USTEC</b></h4>
+                      <p>Sistema de gestion de incidentes</p>
+                    </div>  
                 </div>
 
-                <div class="item">
-                    trabajo
+                <div class="item card">
+                   
+                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                    <h4><b>USTEC</b></h4>
+                    <p>Sistema de gestion de incidentes</p>
+                    </div>
+           
                 </div>
 
-                <div class="item">
-                    trabajo
+                <div class="item card">    
+                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                    <h4><b>USTEC</b></h4>
+                    <p>Sistema de gestion de incidentes</p>
+                    </div>
+            
                 </div>
-
-                <div class="item">
-                    trabajo
+                <div class="item card">         
+                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                    <h4><b>USTEC</b></h4>
+                    <p>Sistema de gestion de incidentes</p>
                 </div>
-                <div class="item">
-                    trabajo
-                </div>
+   
+</div>
+                
                 
             </div>
         </div>
@@ -206,5 +250,7 @@
         <p>Carlos Jhardel Orellano Rondan</p>
         <p>Desarrollador</p>
     </footer>
+
+    <script src="js/app.js"></script>
 </body>
 </html>

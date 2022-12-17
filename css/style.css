@@ -11,27 +11,54 @@ h2{
 }
 
 /**NAVEGACION*/
+
+.logo a{
+   
+    font-size: 4rem;
+
+}
+.btn{
+    background-color: #00C6FF;
+    padding: .8rem;
+    font-size: 1.6rem;
+    border-radius: 15px;
+    
+}
+
+
+
+ .nave .btn:hover{
+    background-color: white;
+    color: #00C6FF; 
+}
 .nav{
     display: flex;
-    justify-content: end;
-    padding: 3rem;
-    gap: 2rem;
+    justify-content: space-between;
+    padding: 1rem 4rem;
+   align-items: center;
     font-size: 2rem;
     background-color: #2F4858;
    
 }
 
-.nav a:link, a:visited, a:active {
+.anclas{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nave a:link, a:visited, a:active {
     text-decoration:none;    
 }
 
-.nav a{
+.nave a{
     color: azure;
 }
 
-.nav a:hover{
+.nave a:hover{
     color: #FD640B;
 }
+
 
 /** PRINCIPAL*/
 .hero{
@@ -43,13 +70,13 @@ h2{
     padding: 3rem 4rem 0rem 4rem ;
     font-size: 1.8rem;
     font-family: 'Raleway', sans-serif;
-    color: azure;
+    color: #F1F1E6;
     font-weight: 800;
 }
 
 .hero h1{
     background-color: #2F4858;
-    color: white;
+    color: #F1F1E6;
     padding: 1rem   ;
  
     text-transform: uppercase;
@@ -71,8 +98,18 @@ h2{
     height: 20rem;
 }
 
-
-
+/** boton de ir hacia arriba*/
+.ir-arriba{
+    display:none;
+    background-repeat:no-repeat;
+    font-size:30px;
+    color:#FD640B;
+    cursor:pointer;
+    position:fixed;
+    bottom:40px;
+    right:40px;
+    z-index:2;
+  }
 /** SECCION SOBRE MI*/
 .sobre{
    color: #151E12;
@@ -192,14 +229,34 @@ h2{
 /**TRABAJOS*/
 
 .portafolio{
+   
     color: azure;
     font-size: 2rem;
     padding: 4rem;
     background-color: #00647C;
 }
 .trabajos_grid{
-   
+   margin-top: 3rem;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 2rem;
 }
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: azure;
+    color: #000000;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
