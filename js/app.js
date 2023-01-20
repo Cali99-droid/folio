@@ -1,4 +1,5 @@
 eventListeners();
+AOS.init();
 function eventListeners() {
   var typed = new Typed("#typed", {
     stringsElement: "#typed-strings",
