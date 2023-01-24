@@ -18,7 +18,7 @@
 </head>
 <body>
     <nav>
-        <a href="javascript:void(0);" style="font-size:15px;" class="icon-bar" onclick="myFunction()">&#9776;</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon-bar" onclick="myFunction()"><i class="fa-solid fa-bars"></i></a>
        <div class="nav nave" id="nav">
             <div class="logo">
                 <a href="/#" class=""><i class="fa-brands fa-connectdevelop"></i></a>
@@ -296,16 +296,10 @@
        </div>
     </footer>
 <script>
+   
     AOS.init();
 
-    function myFunction() {
-        var x = document.getElementById("nav");
-        if (x.className === "nav") {
-          x.className += " responsive";
-        } else {
-          x.className = "nav";
-        }
-      }
+    
 </script>
     <script src="js/app.js"></script>
 </body>

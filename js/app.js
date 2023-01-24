@@ -1,5 +1,12 @@
 eventListeners();
-
+function myFunction() {
+  var x = document.getElementById("nav");
+  if (x.className === "nav") {
+    x.className += " responsive";
+  } else {
+    x.className = "nav";
+  }
+}
 function eventListeners() {
   var typed = new Typed("#typed", {
     stringsElement: "#typed-strings",
