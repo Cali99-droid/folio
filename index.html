@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio - Carlos Orellano</title>
+    <title> Carlos Orellano - Portafolio</title>
 
     <link rel="shortcut icon" href="assets/log.png">
     <link rel="stylesheet" href="css/style.css">
@@ -18,23 +18,26 @@
 </head>
 <body>
     <nav>
-        
-       <div class="nav nave">
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon-bar" onclick="myFunction()">&#9776;</a>
+       <div class="nav nave" id="nav">
             <div class="logo">
-                <a href="" class=""><i class="fa-brands fa-connectdevelop"></i></a>
+                <a href="/#" class=""><i class="fa-brands fa-connectdevelop"></i></a>
             </div>
-        <div class="anclas">
+            <div class="anclas">
+            
+                <a href="#sobre">Sobre mi</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#contacto">Contacto</a>
+                <a href="#contacto" class="btn"> <i class="fa-solid fa-file-arrow-down"></i> Descargar CV</a>
+            </div>
+            <div class="enlace-redes nave">
+                <a href="https://wa.link/bejzck" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/Cali99-droid" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/carlos-jhardel-o-27a962131/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.facebook.com/carlos.jhardel.devor" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            
+            </div>
            
-            <a href="#sobre">Sobre mi</a>
-            <a href="#portafolio">Portafolio</a>
-            <a href="#contacto">Contacto</a>
-            <a href="#contacto" class="btn"> <i class="fa-solid fa-file-arrow-down"></i> Descargar CV</a>
-        </div>
-        <div class="anclas nave">
-            <a href="sobre"><i class="fa-brands fa-github"></i></a>
-            <a href="#portafolio"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="#contacto"><i class="fa-brands fa-facebook"></i></a>
-        </div>
        </div>
 
     </nav>
@@ -62,8 +65,8 @@
           <i class="fa fa-arrow-up fa-stack-1x fa-inverse"></i>
         </span>
       </a>
-    <section  >
-        <div class="sobre" id="sobre">
+    <section class="" >
+        <div class="sobre mi" id="sobre">
                 <div class="sobre_titulo" data-aos="fade-right"
                 data-aos-easing="ease-in-sine"
                 data-aos-duration="300">
@@ -182,86 +185,127 @@
 
     <section>
         <div class="portafolio" id="portafolio">
-            <h2>TRABAJOS</h2>
+            <h2 data-aos="fade-right">Ultimos Proyectos</h2>
             <div class="trabajos_grid">
-                <div class="item card">                
-                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
-                    <div class="container">
-                        <h4><b>USTEC</b></h4>
-                        <p>Sistema de gestion de incidentes</p>
-                    </div>   
+                <div class="item card" data-aos="fade-right"
+               
+                data-aos-easing="ease-in-sine">                
+                        <div class="item-img">
+                            <img src="/assets/img/digit.png">
+                        </div>
+                       <div class="item-text">
+                            <h4>DIGIT<b>DBU</b></h4>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolores quis sit vel dolore culpa nulla facilis ad quaerat quia! Repudiandae laboriosam laudantium architecto sint explicabo molestiae esse, tempore corrupti.</p>
+                       </div>
+                    
                 </div>
 
-                <div class="item card">        
-                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
-                    <div class="container">
-                      <h4><b>USTEC</b></h4>
-                      <p>Sistema de gestion de incidentes</p>
-                    </div>  
+                <div class="item card" data-aos="fade-left"
+             
+                data-aos-easing="ease-in-sine">                
+                    
+                   <div class="item-text">
+                        <h4>Organizaciones<b> UNASAM</b></h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolores quis sit vel dolore culpa nulla facilis ad quaerat quia! Repudiandae laboriosam laudantium architecto sint explicabo molestiae esse, tempore corrupti.</p>                 
+                   </div>
+                   <div class="item-img">
+                    <img src="/assets/img/org.png">
                 </div>
+                </div>   
 
-                <div class="item card">
-                   
-                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
-                    <div class="container">
-                    <h4><b>USTEC</b></h4>
-                    <p>Sistema de gestion de incidentes</p>
+                <div class="item card" data-aos="fade-right"
+
+                data-aos-easing="ease-in-sine">                
+                    <div class="item-img">
+                        <img src="/assets/img/USTEC.png">
                     </div>
-           
-                </div>
+                   <div class="item-text">
+                        <h4>USTEC<b> OGTISE</b></h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolores quis sit vel dolore culpa nulla facilis ad quaerat quia! Repudiandae laboriosam laudantium architecto sint explicabo molestiae esse, tempore corrupti.</p>
+                   </div>
+                </div>   
 
-                <div class="item card">    
-                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
-                    <div class="container">
-                    <h4><b>USTEC</b></h4>
-                    <p>Sistema de gestion de incidentes</p>
-                    </div>
+                <div class="item card" data-aos="fade-left"
             
-                </div>
-                <div class="item card">         
-                    <img src="/assets/port.jpg" alt="Avatar" style="width:100%">
-                    <div class="container">
-                    <h4><b>USTEC</b></h4>
-                    <p>Sistema de gestion de incidentes</p>
-                </div>
-   
-</div>
-                
-                
+                data-aos-easing="ease-in-sine">                
+                    <div class="item-img">
+                        <img src="/assets/img/queral.png">
+                    </div>
+                   <div class="item-text">
+                        <h4>Almacén</h4>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias dolores quis sit vel dolore culpa nulla facilis ad quaerat quia! Repudiandae laboriosam laudantium architecto sint explicabo molestiae esse, tempore corrupti.</p>
+                   </div>
+                </div>   
             </div>
+            <!-- <a href="/#">Ver mas</a>   -->
         </div>
     </section>
 
     
     <section>
-        <div class="sobre" id="contacto">
-        <h2>Contacto</h2>
-        <form action="">
-            <div>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" id="nombre">
-            </div>
-            <div>
-                <label for="email">email</label>
-                <input type="mail" name="email" id="email">
-            </div>
-            <div>
-                <label for="mensaje">Mensaje</label>
-                <textarea cols="30" rows="10" name="mensaje" id="mensaje"></textarea>
-            </div>
+        
+        <div class="sobre "  id="contacto">
+            <h2 class="titulo-contacto">Contacto</h2>
+            <div class=" contacto">
+                <div class="info">
+                    <p>Preguntas, dudas o consultas? </p> 
+                    <p>Puedes encontrarme en mis redes o enviame un mensaje por aqui</p>
+                    <div class=" contac">
+                        <a href="https://wa.link/bejzck" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/Cali99-droid" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/carlos-jhardel-o-27a962131/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/carlos.jhardel.devor" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="info-wp">
+                        <p>*puedes escanear el codigo para chatear conmigo:</p>
+                        <img src="/assets/img/wp.png" alt="QR whatsapp">
+                    </div>
+                </div>
+                 <div class="contacto-cont">
+                    <form action="" class="formulario">
+                        <div>
+                            <label for="nombre"> Apellidos y Nombres </label>
+                            <input type="text" name="nombre" id="nombre">
+                        </div>
+                        <div>
+                            <label for="email">E-mail</label>
+                            <input type="mail" name="email" id="email">
+                        </div>
+                        <div>
+                            <label for="mensaje">Mensaje</label>
+                            <textarea  rows="3" name="mensaje" id="mensaje"></textarea>
+                        </div>
 
-            <button type="submit">Contactar</button>
-        </form>
+                        <input type="submit" value="Contactar">
+                    </form>
+                
+                  </div>
+                   
+            </div>
+           
+
+          
         </div>
     </section>
 
     <footer>
-        <h3>FOOTER</h3>
-        <p>Carlos Jhardel Orellano Rondan</p>
-        <p>Desarrollador</p>
+       <div class="foo">
+
+           <p>Copyright © 2023 - Carlos Jhardel Orellano Rondan</p>
+           
+       </div>
     </footer>
 <script>
     AOS.init();
+
+    function myFunction() {
+        var x = document.getElementById("nav");
+        if (x.className === "nav") {
+          x.className += " responsive";
+        } else {
+          x.className = "nav";
+        }
+      }
 </script>
     <script src="js/app.js"></script>
 </body>
